@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Puzzle 1</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" type="text/css" href="styles/puzzle.css"/>
+  <script type="text/javascript" src="scripts/puzzle.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+
+  function run() {
+    setup();
+
+    // --------- DEMO-CODE START ---------
+    
+    var demoSquare = buildSquare(0);
+
+    move(demoSquare, 0, 1);
+    move(demoSquare, 1, 0);
+    move(demoSquare, 0, -1);
+    move(demoSquare, -1, 0);
+
+    // --------- DEMO-CODE ENDE ----------
+
+    var square1 = buildSquare(1);
+    var square2 = buildSquare(2);
+    var square3 = buildSquare(3);
+    
+    // ######################################
+    // ######################################
+    // --------- PROGRAMMCODE START ---------
+    // ######################################
+    // ######################################
+
+    // Bewege square1, square2 und square3 so,
+    // dass sie das Muster vervollständigen.
+    // Benutze so wenig move()-Aufrufe wie möglich.
+
+    
+    // ######################################
+    // ######################################
+    // --------- PROGRAMMCODE ENDE ----------
+    // ######################################
+    // ######################################
+  }
+
+  window.addEventListener("DOMContentLoaded", run);
+
+  </script>
+</body>
+</html>

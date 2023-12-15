@@ -1,0 +1,68 @@
+  body {
+    background-color: #000000;
+  }
+  .ziu-square {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+  }
+  .ziu-red {
+    background-color: #ff0099;
+  }
+  .ziu-blue {
+    background-color: #9900ff;
+  }
+  .ziu-row-1 {
+    top: 300px;
+  }
+  .ziu-col-1 {
+    left: 300px;
+  }
+  .ziu-row-2 {
+    top: 350px;
+  }
+  .ziu-col-2 {
+    left: 350px;
+  }
+  .ziu-row-3 {
+    top: 400px;
+  }
+  .ziu-col-3 {
+    left: 400px;
+  }
+  .ziu-row-4 {
+    top: 450px;
+  }
+  .ziu-col-4 {
+    left: 450px;
+  }
+  .ziu-row-5 {
+    top: 500px;
+  }
+  .ziu-col-5 {
+    left: 500px;
+  }
+  .ziu-d-none {
+    display: none;
+  }
+  .ziu-piece-0 {
+    top: 100px;
+    left: 50px;
+    background-color: #ffff00;
+  }
+  .ziu-piece-1 {
+    top: 100px;
+    left: 350px;
+    background-color: #ff0099;
+  }
+  .ziu-piece-2 {
+    top: 500px;
+    left: 700px;
+    background-color: #9900ff;
+  }
+  .ziu-piece-3 {
+    top: 650px;
+    left: 300px;
+    background-color: #ff0099;
+  }
